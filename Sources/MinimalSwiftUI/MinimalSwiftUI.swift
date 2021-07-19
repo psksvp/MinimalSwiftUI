@@ -2,6 +2,9 @@ import Foundation
 import SwiftUI
 import Cocoa
 
+// code below was modified from 
+// https://gist.github.com/chriseidhof/26768f0b63fa3cdf8b46821e099df5ff
+
 public extension NSApplication
 {
   func run<V: View>(@ViewBuilder view: () -> V)
