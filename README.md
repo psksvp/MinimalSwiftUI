@@ -27,4 +27,13 @@ struct ContentView: View
 
 ~~~
 
+To use MinimalSwiftUI, simply add the follow line in your swift package dependencies,
+
+~~~swift 
+
+.package(name: "MinimalSwiftUI", url: "https://github.com/psksvp/MinimalSwiftUI", .branch("main"))
+
+~~~
+
+
 Credit : https://gist.github.com/chriseidhof/26768f0b63fa3cdf8b46821e099df5ff
